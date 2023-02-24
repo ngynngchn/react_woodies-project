@@ -1,0 +1,29 @@
+.Footer {
+	background-color: #f1f1f1;
+	padding: 0 0 0 5vw;
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+}
+
+.Footer article {
+	margin: 5rem 0;
+	padding-top: 1rem;
+	border-top: 1px solid #c4c4c4;
+	width: 100%;
+}
+
+.Footer article p,
+.logo {
+	color: #8d8d8d;
+	margin: 1rem 0;
+}
+
+.Footer p.logo {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	margin: 2rem 0;
+	transform: translate(-50%);
+	text-align: center;
+}

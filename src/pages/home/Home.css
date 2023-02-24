@@ -1,0 +1,40 @@
+.Home {
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+	align-items: center;
+}
+
+.Home main {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin: 0 12vw;
+	width: 40vw;
+	height: fit-content;
+}
+.Home main h2 {
+	font-size: 4.5rem;
+	width: 400px;
+	color: #313235;
+	margin: 1.5vw 0;
+}
+.Home main h3 {
+	font-size: 2.2rem;
+	font-variation-settings: "wght" 400;
+	color: #313235;
+}
+aside {
+	background-color: #f9bdbd;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	width: 33vw;
+}
+
+.Home aside img {
+	transform: translateX(-200px);
+}
+
+.Home span {
+	font-variation-settings: "wght" 800;
+}

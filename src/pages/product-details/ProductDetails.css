@@ -1,0 +1,20 @@
+.ProductDetails {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.ProductDetails section {
+	padding: 0 12vw;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	align-items: center;
+	justify-items: center;
+}
+
+.ProductDetails section p {
+	font-variation-settings: "wght" 600;
+	font-size: 1.5rem;
+	margin: 3vw;
+}

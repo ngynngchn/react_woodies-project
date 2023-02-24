@@ -1,0 +1,9 @@
+header {
+	display: flex;
+	justify-content: space-between;
+	padding: 3vw 10vw;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+}

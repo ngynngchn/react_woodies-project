@@ -1,0 +1,13 @@
+.product-view {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 5vw;
+	padding: 0 12vw;
+}
+
+.Products {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}

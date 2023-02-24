@@ -1,0 +1,24 @@
+.About main {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	align-items: center;
+	padding: 0 12vw;
+}
+
+.About {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+.About h2 {
+	font-variation-settings: "wght" 800;
+	color: #3e3f43;
+	font-size: 2.2rem;
+}
+.About h2 span {
+	font-variation-settings: "wght" 400;
+}
+.About h3 {
+	font-size: 1.5rem;
+}
